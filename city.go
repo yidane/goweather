@@ -1,0 +1,3 @@
+package goweather
+
+const getCityURI = ""
