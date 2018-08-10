@@ -1,2 +1,2 @@
 # goweather
-get current weather
+free api for getting current weather
