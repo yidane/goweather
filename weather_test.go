@@ -25,8 +25,6 @@ func Benchmark_httpGet(b *testing.B) {
 }
 
 func TestGetWeather(t *testing.T) {
-	var c Cache
-	SetCache(&c)
 	r, err := GetWeather("101190408")
 	if err != nil {
 		fmt.Println(err)
@@ -37,8 +35,6 @@ func TestGetWeather(t *testing.T) {
 }
 
 func BenchmarkGetWeather(b *testing.B) {
-	var c Cache
-	SetCache(&c)
 	for i := 0; i < b.N; i++ {
 		GetWeather("101190408")
 	}

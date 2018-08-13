@@ -1,8 +1,13 @@
 package goweather
 
-import "time"
+import (
+	"time"
+)
 
-type DefaultCache struct {
+type DefaultWeatherCache struct {
+}
+
+type DefaultCityCache struct {
 }
 
 type cacheItem struct {
@@ -10,24 +15,44 @@ type cacheItem struct {
 	seconds int64
 }
 
-var defaultCache = map[string]*cacheItem{}
+var defaultWeatherCache = map[string]*cacheItem{}
+var defaultCityCache = map[string]*cacheItem{}
 
-func (c DefaultCache) Get(k string) string {
-	if v, ok := defaultCache[k]; ok {
+func (c DefaultWeatherCache) Get(k string) (string, error) {
+	if v, ok := defaultWeatherCache[k]; ok {
 		if v.seconds > time.Now().Unix() {
-			return v.value
+			return v.value, nil
 		}
-		delete(defaultCache, k)
-		return ""
+		delete(defaultWeatherCache, k)
+		return ``, errKeyExpired
 	}
-	return ""
+	return "", errKeyNotFound
 }
 
-func (c DefaultCache) Set(k, v string, overtime int64) {
-	defaultCache[k] = &cacheItem{
+func (c DefaultWeatherCache) Set(k, v string, overtime int64) error {
+	defaultWeatherCache[k] = &cacheItem{
 		value:   v,
 		seconds: time.Now().Unix() + overtime,
 	}
+
+	return nil
 }
 
-//TODO:auto remove values which is overtime
+func (c DefaultCityCache) Get(k string) (string, error) {
+	if v, ok := defaultCityCache[k]; ok {
+		if v.seconds > time.Now().Unix() {
+			return v.value, nil
+		}
+		delete(defaultCityCache, k)
+		return "", errKeyExpired
+	}
+	return "", errKeyNotFound
+}
+
+func (c DefaultCityCache) Set(k, v string, overtime int64) error {
+	defaultCityCache[k] = &cacheItem{
+		value:   v,
+		seconds: time.Now().Unix() + overtime,
+	}
+	return nil
+}

@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/weather_test.go" line="33" />
-    <bookmark url="file://$PROJECT_DIR$/weather.go" line="17" />
+    <bookmark url="file://$PROJECT_DIR$/weather_test.go" line="31" />
+    <bookmark url="file://$PROJECT_DIR$/weather.go" line="11" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a51bcfe1-c8fe-4535-a5cf-5253448d3162" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cache.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/city.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/defaultCache.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/goweather.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/city_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache.go" beforeDir="false" afterPath="$PROJECT_DIR$/cache.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/city.go" beforeDir="false" afterPath="$PROJECT_DIR$/city.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/defaultCache.go" beforeDir="false" afterPath="$PROJECT_DIR$/defaultCache.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather.go" beforeDir="false" afterPath="$PROJECT_DIR$/weather.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/weather_test.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,19 +28,20 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="LICENSE" value="1" />
-          <entry key="go" value="20" />
+          <entry key="go" value="26" />
           <entry key="s" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Go" value="20" />
+          <entry key="Go" value="26" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="x86 Plan9 Assembly" value="1" />
         </counts>
@@ -46,43 +49,25 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="LICENSE" value="8" />
-          <entry key="go" value="2117" />
-          <entry key="txt" value="12" />
+          <entry key="go" value="4226" />
+          <entry key="txt" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Go" value="2117" />
-          <entry key="PLAIN_TEXT" value="20" />
+          <entry key="Go" value="4226" />
+          <entry key="PLAIN_TEXT" value="29" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cache.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/defaultCache.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/weather_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="519">
+              <caret line="38" column="31" lean-forward="true" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
               <folding>
                 <element signature="e#19#47#0" expanded="true" />
               </folding>
@@ -90,20 +75,56 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/city.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            <state relative-caret-position="234">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
+              <folding>
+                <element signature="e#19#89#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/go/src/encoding/xml/xml.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/city_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="e#19#47#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/defaultCache.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+              <folding>
+                <element signature="e#19#93#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/weather.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="31" column="42" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="31" selection-end-column="42" />
+            <state relative-caret-position="150">
+              <caret line="10" column="59" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
               <folding>
                 <element signature="e#19#61#0" expanded="true" />
               </folding>
@@ -112,37 +133,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/go/src/testing/testing.go">
+        <entry file="file://$PROJECT_DIR$/cache.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="657" selection-start-line="657" selection-end-line="657" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/go/src/runtime/panic.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="529" selection-start-line="529" selection-end-line="529" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/go/src/net/http/response.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/go/src/time/time.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="798" selection-start-line="798" selection-end-line="798" />
+            <state relative-caret-position="218">
+              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+              <folding>
+                <element signature="e#19#54#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -172,10 +169,11 @@
         <option value="$PROJECT_DIR$/http/httpContext.go" />
         <option value="$PROJECT_DIR$/LICENSE" />
         <option value="$PROJECT_DIR$/weather_test.go" />
-        <option value="$PROJECT_DIR$/weather.go" />
-        <option value="$PROJECT_DIR$/defaultCache.go" />
         <option value="$PROJECT_DIR$/cache.go" />
+        <option value="$PROJECT_DIR$/defaultCache.go" />
         <option value="$PROJECT_DIR$/city.go" />
+        <option value="$PROJECT_DIR$/city_test.go" />
+        <option value="$PROJECT_DIR$/weather.go" />
       </list>
     </option>
   </component>
@@ -199,7 +197,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -211,6 +208,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -239,7 +237,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.BenchmarkGetWeather in github.com/yidane/goweather">
+  <component name="RunManager" selected="Go Test.Test_loadCities in github.com/yidane/goweather">
     <configuration name="BenchmarkGetWeather in github.com/yidane/goweather" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="goweather" />
       <working_directory value="$PROJECT_DIR$" />
@@ -280,87 +278,89 @@
       <pattern value="^TestGetWeather$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_httpGet in github.com/yidane/goweather" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_loadCities in github.com/yidane/goweather" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="goweather" />
       <working_directory value="$PROJECT_DIR$" />
       <go_parameters value="-i" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
       <package value="github.com/yidane/goweather" />
-      <pattern value="^Test_httpGet$" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^Test_loadCities$" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Test.Test_httpGet in github.com/yidane/goweather" />
       <item itemvalue="Go Test.Benchmark_httpGet in github.com/yidane/goweather" />
       <item itemvalue="Go Test.TestGetWeather in github.com/yidane/goweather" />
       <item itemvalue="Go Test.Benchmark_GetWeather in github.com/yidane/goweather" />
       <item itemvalue="Go Test.BenchmarkGetWeather in github.com/yidane/goweather" />
+      <item itemvalue="Go Test.Test_loadCities in github.com/yidane/goweather" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.Test_loadCities in github.com/yidane/goweather" />
         <item itemvalue="Go Test.BenchmarkGetWeather in github.com/yidane/goweather" />
+        <item itemvalue="Go Test.TestGetWeather in github.com/yidane/goweather" />
         <item itemvalue="Go Test.Benchmark_GetWeather in github.com/yidane/goweather" />
         <item itemvalue="Go Test.Benchmark_httpGet in github.com/yidane/goweather" />
-        <item itemvalue="Go Test.TestGetWeather in github.com/yidane/goweather" />
-        <item itemvalue="Go Test.Test_httpGet in github.com/yidane/goweather" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="Benchmark_GetWeather_in_github_com_yidane_goweather - 2018.08.10 at 17h 28m 59s.xml">
-      <configuration name="Benchmark_GetWeather in github.com/yidane/goweather" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_loadCities_in_github_com_yidane_goweather - 2018.08.13 at 14h 13m 48s.xml">
+      <configuration name="Test_loadCities in github.com/yidane/goweather" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Benchmark_httpGet_in_github_com_yidane_goweather - 2018.08.10 at 17h 29m 08s.xml">
-      <configuration name="Benchmark_httpGet in github.com/yidane/goweather" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_loadCities_in_github_com_yidane_goweather - 2018.08.13 at 14h 50m 55s.xml">
+      <configuration name="Test_loadCities in github.com/yidane/goweather" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Benchmark_GetWeather_in_github_com_yidane_goweather - 2018.08.10 at 17h 30m 02s.xml">
-      <configuration name="Benchmark_GetWeather in github.com/yidane/goweather" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_loadCities_in_github_com_yidane_goweather - 2018.08.13 at 14h 53m 26s.xml">
+      <configuration name="Test_loadCities in github.com/yidane/goweather" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Benchmark_GetWeather_in_github_com_yidane_goweather - 2018.08.10 at 17h 31m 59s.xml">
-      <configuration name="Benchmark_GetWeather in github.com/yidane/goweather" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_loadCities_in_github_com_yidane_goweather - 2018.08.13 at 14h 56m 50s.xml">
+      <configuration name="Test_loadCities in github.com/yidane/goweather" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Benchmark_GetWeather_in_github_com_yidane_goweather - 2018.08.10 at 17h 32m 40s.xml">
-      <configuration name="Benchmark_GetWeather in github.com/yidane/goweather" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_loadCities_in_github_com_yidane_goweather - 2018.08.13 at 15h 05m 52s.xml">
+      <configuration name="Test_loadCities in github.com/yidane/goweather" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Benchmark_GetWeather_in_github_com_yidane_goweather - 2018.08.10 at 17h 33m 17s.xml">
-      <configuration name="Benchmark_GetWeather in github.com/yidane/goweather" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_loadCities_in_github_com_yidane_goweather - 2018.08.13 at 15h 06m 12s.xml">
+      <configuration name="Test_loadCities in github.com/yidane/goweather" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Benchmark_GetWeather_in_github_com_yidane_goweather - 2018.08.10 at 17h 36m 34s.xml">
-      <configuration name="Benchmark_GetWeather in github.com/yidane/goweather" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_loadCities_in_github_com_yidane_goweather - 2018.08.13 at 15h 18m 40s.xml">
+      <configuration name="Test_loadCities in github.com/yidane/goweather" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Benchmark_GetWeather_in_github_com_yidane_goweather - 2018.08.10 at 17h 36m 50s.xml">
-      <configuration name="Benchmark_GetWeather in github.com/yidane/goweather" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_loadCities_in_github_com_yidane_goweather - 2018.08.13 at 15h 19m 49s.xml">
+      <configuration name="Test_loadCities in github.com/yidane/goweather" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="BenchmarkGetWeather_in_github_com_yidane_goweather - 2018.08.10 at 17h 37m 44s.xml">
-      <configuration name="BenchmarkGetWeather in github.com/yidane/goweather" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_loadCities_in_github_com_yidane_goweather - 2018.08.13 at 15h 21m 05s.xml">
+      <configuration name="Test_loadCities in github.com/yidane/goweather" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="BenchmarkGetWeather_in_github_com_yidane_goweather - 2018.08.10 at 18h 06m 11s.xml">
-      <configuration name="BenchmarkGetWeather in github.com/yidane/goweather" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_loadCities_in_github_com_yidane_goweather - 2018.08.13 at 15h 21m 37s.xml">
+      <configuration name="Test_loadCities in github.com/yidane/goweather" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="37" y="-3" width="1883" height="1083" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2498642" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2525801" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.33017877" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.43007362" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39957938" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2597266" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39957938" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.33017877" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -373,33 +373,38 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/weather.go</url>
-          <line>30</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/weather.go</url>
-          <line>38</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/weather_test.go</url>
-          <line>29</line>
-          <properties />
+          <line>27</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/city.go</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/city_test.go</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="GoTestRunConfiguration">
         <watch expression="CurrentCache" language="go" />
+        <watch expression="string(t)" language="go" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>string(t)</expression-string>
+        <language-id>go</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>CurrentCache</expression-string>
         <language-id>go</language-id>
@@ -408,13 +413,7 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/http/httpContext.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/http/httpContext.go" />
     <entry file="file:///usr/local/go/src/compress/flate/inflate.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
@@ -492,34 +491,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/weather.go">
+    <entry file="file://$PROJECT_DIR$/defaultCache.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="31" column="42" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="31" selection-end-column="42" />
+        <state relative-caret-position="441">
+          <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
           <folding>
-            <element signature="e#19#61#0" expanded="true" />
+            <element signature="e#19#93#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/defaultCache.go">
+    <entry file="file:///usr/local/go/src/encoding/xml/xml.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        <state relative-caret-position="200">
+          <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cache.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        <state relative-caret-position="218">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+          <folding>
+            <element signature="e#19#54#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/weather_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="519">
+          <caret line="38" column="31" lean-forward="true" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
           <folding>
             <element signature="e#19#47#0" expanded="true" />
           </folding>
@@ -528,8 +530,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/city.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        <state relative-caret-position="234">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#19#89#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/city_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#19#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="59" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
+          <folding>
+            <element signature="e#19#61#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
